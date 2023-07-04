@@ -2,6 +2,10 @@
 Let's you decrypt {aes} passwords, based on com.ibm.websphere.crypto.PasswordUtil
 
 ```bash
+cd ~ ; wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz
+tar xf openjdk-11.0.2_linux-x64_bin.tar.gz
+wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz
+export JAVA_HOME=~/jdk-11.0.2
 mvn liberty:run
 ```
 
